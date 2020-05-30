@@ -10,8 +10,6 @@
   padding: 8px 4px;
   display: flex;
   justify-content: space-between;
-  //temp
-  background-color: aqua;
 
   .input {
     margin: 0;
@@ -25,13 +23,13 @@
 
     &:hover {
       border: 1px solid $border-color;
-
     }
 
     &:focus {
       border: 1px solid #1a73e8;
     }
   }
+
   .button {
     @include button(red)
   }
