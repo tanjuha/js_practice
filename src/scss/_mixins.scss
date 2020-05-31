@@ -1,4 +1,4 @@
-@mixin button ($color: green) {
+@mixin button($color: green) {
   height: 24px;
   min-width: 24px;
   padding: 3px;
@@ -19,5 +19,10 @@
     background: #eee;
     cursor: pointer;
   }
+}
 
+@mixin clear-list() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
